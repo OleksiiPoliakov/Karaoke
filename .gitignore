@@ -1,0 +1,26 @@
+# Конфигурация и секреты
+config.php
+.env
+.env.*
+
+# Бэкапы и загружаемые пользователями файлы
+backups/
+uploads/
+files/
+
+# Дампы БД
+*.sql
+*.sql.gz
+*.sql.zip
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+
+# Системные и IDE файлы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
